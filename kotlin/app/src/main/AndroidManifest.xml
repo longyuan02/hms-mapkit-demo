@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.huawei.hms.maps.sample">
+    package="com.huawei.hms.maps.test_harmody">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -24,7 +24,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -35,137 +35,137 @@
         </activity>
 
         <activity
-            android:name=".CircleDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.CircleDemoActivity"
             android:label="CircleDemo"
             android:exported="false" />
 
         <activity
-            android:name=".ControlsDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.ControlsDemoActivity"
             android:label="ControlsDemo"
             android:exported="false" />
 
         <activity
-            android:name=".GestureDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.GestureDemoActivity"
             android:label="GestureDemo"
             android:exported="false" />
 
         <activity
-            android:name=".GroundOverlayDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.GroundOverlayDemoActivity"
             android:label="GroundOverlayDemo"
             android:exported="false" />
 
         <activity
-            android:name=".LiteModeDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.LiteModeDemoActivity"
             android:label="LiteModeDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MapFunctionsDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MapFunctionsDemoActivity"
             android:label="MapFunctions"
             android:exported="false" />
 
         <activity
-            android:name=".MoreLanguageDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MoreLanguageDemoActivity"
             android:label="MoreLanguageDemo"
             android:exported="false" />
 
         <activity
-            android:name=".PolygonDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.PolygonDemoActivity"
             android:label="PolygonDemo"
             android:exported="false" />
 
         <activity
-            android:name=".PolylineDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.PolylineDemoActivity"
             android:label="PolylineDemo"
             android:exported="false" />
 
         <activity
-            android:name=".LocationSourceDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.LocationSourceDemoActivity"
             android:label="LocationSourceDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MarkerDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MarkerDemoActivity"
             android:label="MarkerDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MarkerClusteringDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MarkerClusteringDemoActivity"
             android:label="MarkerClusteringDemo"
             android:exported="false" />
 
         <activity
-            android:name=".CameraDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.CameraDemoActivity"
             android:label="CameraDemo"
             android:exported="false" />
 
         <activity
-            android:name=".BasicMapDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.BasicMapDemoActivity"
             android:label="BasicMapDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MapFragmentDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MapFragmentDemoActivity"
             android:label="MapFragmentDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MapViewDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MapViewDemoActivity"
             android:label="MapViewDemo"
             android:exported="false" />
 
         <activity
-            android:name=".SupportMapDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.SupportMapDemoActivity"
             android:label="SupportMapDemo"
             android:exported="false" />
 
         <activity
-            android:name=".SupportMapCodeDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.SupportMapCodeDemoActivity"
             android:label="SupportMapCodeDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MapViewCodeDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MapViewCodeDemoActivity"
             android:label="MapViewCodeDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MapFragmentCodeDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MapFragmentCodeDemoActivity"
             android:label="MapFragmentCodeDemo"
             android:exported="false" />
 
         <activity
-            android:name=".StyleMapDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.StyleMapDemoActivity"
             android:label="StyleMapDemo"
             android:exported="false" />
 
         <activity
-            android:name=".EventsDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.EventsDemoActivity"
             android:label="EventsDemo"
             android:exported="false" />
 
         <activity
-            android:name=".RoutePlanningDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.RoutePlanningDemoActivity"
             android:label="RoutePlanningDemo"
             android:exported="false" />
 
         <activity
-            android:name=".HeatMapDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.HeatMapDemoActivity"
             android:label="HeatMapDemo"
             android:exported="false" />
 
         <activity
-            android:name=".TrafficDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.TrafficDemoActivity"
             android:label="TrafficDemo"
             android:exported="false" />
 
         <activity
-            android:name=".DarkModeDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.DarkModeDemoActivity"
             android:label="DarkModeDemo"
             android:exported="false" />
 
         <activity
-            android:name=".MyLocationStyleDemoActivity"
+            android:name="com.huawei.hms.maps.test_harmody.MyLocationStyleDemoActivity"
             android:label="MyLocationStyleDemo"
             android:exported="false" />
 
